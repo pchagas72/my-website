@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  border: 0;
+}
+
+body{
+  background: #371B58;
+}
+
+main{
+  width: 60%;
+  height: 100%;
+  left: 1px;
+  right: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  background: red;
+  display: contents;
+
+}
+
+.sidebar_left{
+  height: 100%;
+  width: 100px;
+  background: red;
+
+}
+
+.title_box{
+  text-align: center;
+  padding: 70px 0;
+  width: 100%;
+  height: 110px;
+
+
+}
+
+.title_box h1{
+  font-style: italic;
+  color: #C689C6;
+}
+
+.title_box p{
+  font-size: 20px;
+  text-decoration: underline;
+  font-style: italic;
+  color: #C689C6;
+}
+
+.whoami{
+  border-width: 3px;
+  border-color: #C689C6;
+  border-style: solid;
+  right: 10px;
+  left: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height:100px;
+  width: 800px;
+  text-align: center;
+
+}
+
+.whoami p{
+  font-size: 18px;
+  padding: 5px;
+  color: #C689C6;
+
+}
+
+.my_stuff{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 20px;
+  right: 10px;
+  left: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background: red ; */
+}
+
+.my_stuff a{
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+  min-width: 150px;
+  padding-left: 30px;
+  text-align: center;
+  color: #C689C6;
+}
+
+.my_stuff p{
+  padding: 5px;
+  border-width: 1px;
+  border-color: #C689C6;
+  border-style: solid;
+  color: #C689C6;
+
+}
+
+.my_stuff p:hover{
+  cursor: pointer;
+  transform: scaleX(1.1);
+  transform: scaleY(1.1);
+}
+
+.imgs{
+  display: flex;
+  max-width: 50%;
+  height: 350px;
+  right: 1px;
+  left: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.imgs img{
+  border-width: medium;
+  border-color: #C689C6;
+  border-style: solid;
+  margin-left: 15px;
+}
+
+.stickers{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+
+  width: 50%;
+  left: 1px;
+  right: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stickers img{
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
