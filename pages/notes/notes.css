@@ -30,9 +30,6 @@ body{
     font-size: 1.1rem;
     margin-left: 30px;
 }
-.sidebar p a{
-    color: #C689C6;
-}
 .middle_flexbox{
     min-width: 800px;
     margin-top: 50px;
@@ -47,8 +44,17 @@ body{
     margin-left: 150px;
     margin-right: 150px;
 }
-.notes li{
+li{
     list-style: none;
     font-size: 1.1rem;
     padding-bottom: 50px;
+}
+
+a{
+    text-decoration: underline;
+    color: #C689C6;
+}
+
+img {
+    border: 2px #C689C6 solid;
 }

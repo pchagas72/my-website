@@ -73,13 +73,12 @@ main{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 600px;
+  width: 900px;
   height: 20px;
   right: 10px;
   left: 10px;
   margin-left: auto;
   margin-right: auto;
-  /* background: red ; */
 }
 
 .my_stuff a{
