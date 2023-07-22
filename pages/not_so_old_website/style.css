@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    background: #371B58;
+    color: #C689C6;
+
+}
+.main_flexbox{
+    display: flex;
+}
+.esquerda{
+    text-align: center;
+    align-items: center;
+    padding-left: 30px;
+    height: 80vh;
+    min-width: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title{
+    font-size: 1.2rem;
+    padding-top: 70px;
+}
+.title a{
+    text-decoration: none;
+    color: #C689C6;
+}
+.sidebar{
+    height: 500px;
+    width: 100%;
+}
+.sidebar p{
+    font-size: 1.1rem;
+    list-style: none;
+}
+.sidebar p a{
+    padding: 5px 10px;
+    margin-top: 50px;
+    display: inline-block;
+    min-width: 150px;
+    max-width: 150px;
+    text-decoration: none;
+    color: #C689C6;
+    border: 1px solid #C689C6;
+}
+.sidebar p a:hover{
+    padding: 7px 12px;
+    margin-top: 46px;
+}
+.middle_flexbox{
+    margin-top: 80px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 200px;
+}
+.images{
+    display: flex;
+    height: 300px;
+}
+.images img{
+    width: 500px;
+    margin: 20px;
+    border: 4px solid #C689C6;
+}
+.messages{
+    border: 2px solid;
+}
+.message{
+    padding: 1px 10px;
+}
+.message_title{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.msg{
+    text-align: center;
+    max-width: 1200px;
+    font-size: 1.1rem;
+}
+.stickers img{
+    padding-left: 20px;
+    padding-top: 30px;
+}
